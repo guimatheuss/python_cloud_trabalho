@@ -1,5 +1,5 @@
 import requests
-# API CLIMA CURITIBA
+# API CLIMA CURITIBAAA
 url_curitiba = "https://api.open-meteo.com/v1/forecast?latitude=-25.4296&longitude=-49.2713&current_weather=true"
 resp_curitiba = requests.get(url_curitiba)
 clima_curitiba = resp_curitiba.json()
